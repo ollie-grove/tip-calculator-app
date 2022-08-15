@@ -1,0 +1,66 @@
+/* Splitter Text (dark green): #406264 , Background (light blue): #C5E4E7 , Tip Amount Box (Dark Green): #00474B , Tip Amount/Total Text and Reset Button (Blue-green): #00474B , Bill and Number of People Box (Light Blue-Gray: #F3F8FB; Bill, Select Tip %, Number of People Text Color (greenish gray): #637778; 
+*/
+
+* {
+    box-sizing: border-box; 
+    padding: 0; 
+    margin: 0; 
+    font-family: "Space Mono", monospace; 
+}
+
+header {
+    font-family: 'Space Mono', sans-serif; 
+    font-weight: 700; 
+    color: #406264; 
+    font-size: 16px; 
+    text-align: center;
+    margin: 75 0px; 
+    padding: 100px; 
+}
+
+body {
+    font-family: 'Space Mono', monospace; 
+    background-color: #C5E4E7;
+    color: #637778;
+}
+
+
+
+.main-container {
+    display: flex;  
+    align-items: center; 
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px; 
+    background-color: white; 
+    width: 100%; 
+    max-height: 100%;
+    display: block; 
+    
+}
+
+.left-div {
+    display: flex;  
+    align-items: center; 
+    flex-direction: row;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.right-div {
+    display: flex;  
+    align-items: center; 
+    flex-direction: row;
+    justify-content: center;
+    background-color: #00474B; 
+    max-width: 50%;
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+}
