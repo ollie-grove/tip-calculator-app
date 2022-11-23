@@ -16,38 +16,67 @@
  
 </head>
 <body>
-  <header>Spli<br>
-    tter</header>
 
     <main>
-
-
       <div class="main-container"> 
+        <p class="app-title">
+          <span>Spli</span>
+          <span>tter</span>
+        </p>
+
+
         <div class="left-div">
-          <p>Bill</p>
-          <form><icon></icon></form>
-  
-          <p>Select Tip %</p> 
-  
-          <button class="5-percent">5%</button>
-          <button class="10-percent">10%</button>
-          <button class="15-percent">15%</button>
-          <button class="25-percent">25%</button>
-          <button class="50-percent">50%</button>
-          <button class="custom">Custom</button>
+
+          <div class="calculate-section">
+
+            <div class="bill-section">
+
+              <p class="label">Bill</p>
+              
+              <div class="bill-input">
+                <p class="dollar">$</p>
+                <input type="number" name="bill" id="bill-input">
+              </div>
+
+            </div>
+
+            <div class="tip-section">
+
+              <p class="label">Select Tip %</p> 
+
+                <div class="button-container">
       
-          <p>Number of People</p>
-          <form><icon></icon></form>
-  
-          <section class="right-div"> 
+                  <button class="percent-btn">5%</button>
+                  <button class="percent-btn">10%</button>
+                  <button class="percent-btn">15%</button>
+                  <button class="percent-btn">25%</button>
+                  <button class="percent-btn">50%</button>
+                  <input type="number" id="custom-percent" placeholder="Custom">
+              </div>
+          
+            <p>Number of People</p>
+              <form><img class="person-icon" src="./images/icon-person.svg"></img></form>
+
+            </div>
+            
+      
+              
+
+          </div>
+          
+          </div>
+
+
+          <div class="right-div"> 
             <p class="calculation">Tip Amount</p>
-          <p class="per-person">/ person</p>
+            <span class="per-person">/ person</span>
       
-          <p class="calculation">Total</p>
-          <p class="per-person">/ person</p>
+            <p class="calculation">Total</p>
+            <span class="per-person">/ person</span>
       
           <button class="reset">Reset</button>
-          </section>
+          </div>
+          </div>
       
           
   
@@ -63,5 +92,6 @@
         Coded by <a href="#">Ollie</a>.
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
